@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homebrewer Project</string>
+    <string name="recipe_creator">Recipe Creator</string>
+    <string name="recipe_list">Recipe List</string>
+    <string name="alcohol_by_volume_abv_calculator">Alcohol by Volume (ABV)</string>
+    <string name="one_gallon">One Gallon</string>
+    <string name="five_gallons">Five Gallons</string>
+</resources>

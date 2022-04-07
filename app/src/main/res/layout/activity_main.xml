@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/honey"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnRecipeCreator"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="@color/black"
+        android:onClick="launchRecipeCreator"
+        android:text="@string/recipe_creator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnABVCalc"
+        android:layout_width="173dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="@color/black"
+        android:onClick="launchABVCalculator"
+        android:text="@string/alcohol_by_volume_abv_calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecipeList" />
+
+    <Button
+        android:id="@+id/btnRecipeList"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="@color/honey"
+        android:onClick="launchRecipeList"
+        android:text="@string/recipe_list"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecipeCreator" />
+</androidx.constraintlayout.widget.ConstraintLayout>
